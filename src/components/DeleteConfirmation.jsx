@@ -10,7 +10,6 @@ export default function DeleteConfirmation({ onConfirm, onCancel }) {
 
     return () => {
       clearTimeout(timer);
-      timer = null;
     };
   }, [onConfirm]);
 
